@@ -28,7 +28,7 @@
         </Grid.RowDefinitions>
         <WrapPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock FontSize="22" Text="Select Languaje:   "/>
-            <ComboBox x:Name="dllLanguage" FontSize="22" Width="120" SelectionChanged="dlLanguage_SelectionChanged">
+            <ComboBox x:Name="dllLanguague" FontSize="22" Width="120" SelectionChanged="dlLanguage_SelectionChanged">
                 <ComboBoxItem IsSelected="True" x:Name="English" Content="English"/>
                 <ComboBoxItem x:Name="Norwegian">Norwegian</ComboBoxItem>
                 <ComboBoxItem x:Name="Portuguese">Portuguese</ComboBoxItem>
